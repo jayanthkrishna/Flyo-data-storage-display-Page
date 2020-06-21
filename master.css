@@ -1,0 +1,124 @@
+
+body{
+  background: hsl(229, 57%, 11%);
+  font-family: 'Raleway', sans-serif;
+}
+
+/* .top_div{
+
+	width: 100%;
+	height: 300px;
+	background-color: hsl(228, 56%, 26%);
+  overflow: visible;
+
+	position: absolute;
+	top:0;
+	bottom: 0;
+
+
+	margin: auto;
+} */
+.left_div{
+  float:left;
+
+  margin:250px 30px 10px 220px;
+  background-color:  hsl(228, 56%, 26%);
+  padding:30px;
+  border-radius: 7px 33.3% 7px 7px;
+  width:250px;
+  height:120px;
+
+}
+.logo{
+  margin:10px 40px 10px 10px;
+
+}
+.icons{
+  margin:10px 40px 10px 20px;
+}
+.icon{
+  margin: 2px;
+  background-color:hsl(229, 57%, 11%);
+  padding:7px;
+  height:15px;
+  width:15px;
+
+  border-radius: 7px;
+}
+.right_div{
+  position: relative;
+  float: left;
+  margin:250px 30px 10px 20px;
+  background-color:  hsl(228, 56%, 26%);
+  padding:30px;
+  border-radius: 7px;
+  width:500px;
+  height:80px;
+  top:40px;
+  bottom:20px;
+}
+.right_div p{
+  font-size: 12px;
+  margin:5px;
+}
+div.bar{
+  width:490px;
+  height:15px;
+  border-radius: 10px 10px 10px 10px;
+  background: hsl(229, 57%, 11%);
+  margin: 15px 10px 10px 5px;
+
+}
+.bar_len{
+  width:70%;
+  height:15px;
+  border-radius: 10px 10px 10px 10px;
+  background: linear-gradient(to right,hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+}
+.p1{
+  color: white;
+}
+.p2{
+  float:left;
+}
+.p3{
+  float:right;
+}
+.ribbon
+{
+	position: relative;
+	background: #fff;
+	margin: #f50;
+	width:180px;
+	height:70px;
+	border-radius: 10px
+}
+.ribbon .ribbon_border
+{
+	position: absolute;
+	top:5px;
+	left:100px;
+	float:right;
+	height:0px;
+	width:0px;
+	border:50px  solid transparent;
+	border-right: 30px solid #fff;
+}
+.comment{
+  position: relative;
+  bottom:140px;
+  left:300px;
+}
+
+.text1{
+  text-align: center;
+  position: relative;
+  right: 18px;
+  top:20px;
+}
+.sp{
+  font-size: 30px;
+}
+.attribution span{
+  color:white;
+}
